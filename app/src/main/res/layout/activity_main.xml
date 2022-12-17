@@ -13,7 +13,6 @@
         android:id="@+id/goToActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="32dp"
         android:text="Activity"
         />
 
@@ -21,6 +20,13 @@
         android:id="@+id/goToFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="32dp"
         android:text="Fragment" />
+
+    <Button
+        android:id="@+id/goToGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery" />
 
 </LinearLayout>
